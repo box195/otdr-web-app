@@ -1,2 +1,12 @@
-# otdr-web-app
-OTDR PRO 5.0 - 지능형 광선로 자동 정밀 분석 시스템 (Zero-Server / Offline IndexedDB)
+# OTDR PRO 5.0 - 지능형 광선로 자동 정밀 분석 시스템
+
+한국도로공사 ITS, 한국철도공사(KR I-02030), ITU-T G.652 / G.650.3 표준 기반의 100% 클라이언트 무서버(Serverless) OTDR 분석 웹 애플리케이션입니다.
+
+## 🌐 바로가기
+- **실행 주소**: [https://box195.github.io/otdr-web-app/](https://box195.github.io/otdr-web-app/)
+
+## ⚡ 주요 특징
+1. **Zero-Server / Serverless**: 백엔드 서버 없이 브라우저에서 100% 실행
+2. **IndexedDB 오프라인 캐싱**: 최초 1회 로드 후 383개 전 선로 파형이 브라우저에 저장되어 1ms 내 즉각 렌더링
+3. **공인 규격 정밀 6단계 분류**: 정상, 접속주의, 접속위험, 벤딩, 불량, 미분류
+4. **다중 파형 오버레이 & 실시간 마커 거리/손실 계산**
